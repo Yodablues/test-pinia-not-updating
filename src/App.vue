@@ -16,7 +16,7 @@ onBeforeMount(() => {
   }
 })
 
-onMounted(async () => {
+onMounted(() => {
   //check if user is authenticated
   if (userStore.isAuthenticated) {
     //fetch user data

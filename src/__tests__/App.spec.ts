@@ -44,5 +44,6 @@ describe('App', () => {
 
     expect(userStore.setTokens).toHaveBeenCalled()
     expect(wrapper.exists()).toBe(true)
+    expect(userStore.isAuthenticated).toBe(true)
   })
 })
